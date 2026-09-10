@@ -6,8 +6,6 @@
 # One `.env` at the repo root serves every project: the key loader walks up from
 # the project directory to the nearest `.env`, so there is no need for a copy
 # per project.
-.env
-.env.local
 
 # ── Python ───────────────────────────────────────────────────────────────────
 __pycache__/
@@ -24,5 +22,6 @@ venv/
 .DS_Store
 ._*
 .idea/
-.vscode/
 *.swp
+config.bat
+node_modules
